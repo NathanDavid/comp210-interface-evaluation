@@ -83,16 +83,16 @@ h2{
 header{
   width:100%;
   height:100px;
-  background: #aaa;
+  background: #000000;
 }
 .content{
   width:100%;
   min-height:400px;
 }
 aside{
-  width:30%;
+  width:20%;
   min-height: 300px;
-  float:left;
+  float:right;
   background:#777;
 }
 nav ul{
@@ -119,9 +119,9 @@ nav ul li a:hover{
   background: #888;
 }
 section{
-  width:65%;
+  width:75%;
   min-height:300px;
-  background: #555;
+  background: linear-gradient(to bottom, #0033cc 0%, #ffffff 102%);
   float: right;
   margin:10px;
 }
